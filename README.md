@@ -1,3 +1,16 @@
+This simple app generates QR code for a Github account profiles and scans QR to redirect to the URL. The purpose is for nerds to look at each others' profile with 1 click rather than 3. 
+
+Enjoy and feel free to contribute and expand the project.
+
+possible todos: 
+1. Verify whether the username entered exists on Github
+2. Better UI. This is a skeleton, don't expect much.
+3. Create an extension out of it.
+
+
+=============================================================================================
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
