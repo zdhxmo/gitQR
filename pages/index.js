@@ -1,6 +1,7 @@
 import NavBar from "../components/NavBar";
 import React, { useState } from 'react';
 import QRCode from 'qrcode';
+import Image from 'next/image';
 
 export default function Home() {
 
@@ -27,8 +28,11 @@ export default function Home() {
       </div>
       <div className="flex justify-center items-center mt-20">
         {imageUrl ? (
-          <img className="w-60 cursor-default" src={imageUrl} alt="img" />)
-          : null}
+          <Image src={imageUrl} alt="profile URL"
+            width={250}
+            height={250}
+          />
+        ) : null}
       </div>
     </div>
   )

@@ -27,7 +27,7 @@ const scan = () => {
                 <QrReader
                     delay={300}
                     onError={handleError}
-                    onScan={handleScan} 
+                    onScan={handleScan}
                 />
             </div>
 

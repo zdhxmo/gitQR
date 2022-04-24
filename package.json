@@ -11,6 +11,7 @@
   "dependencies": {
     "axios": "^0.26.1",
     "cors": "^2.8.5",
+    "gh-account-exists": "^0.1.0",
     "next": "12.1.5",
     "nextjs-cors": "^2.1.1",
     "nextjs-redirect": "^6.0.0",
