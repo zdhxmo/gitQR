@@ -1,10 +1,10 @@
-import React, { useState } from 'react'
-import NavBar from '../components/NavBar'
-import dynamic from 'next/dynamic'
-const QrReader = dynamic(() => import('react-qr-reader'), { ssr: false })
-import { useRouter } from 'next/router'
+import { useState } from 'react';
+import NavBar from '../components/NavBar';
+import dynamic from 'next/dynamic';
+const QrReader = dynamic(() => import('react-qr-reader'), { ssr: false });
+import { useRouter } from 'next/router';
 
-const scan = () => {
+const Scan = () => {
     const router = useRouter()
 
     const [scanResultWebCam, setScanResultWebCam] = useState('');
@@ -13,10 +13,12 @@ const scan = () => {
         console.log(error);
     }
 
-    const handleScan = async (result) => {
+    const handleScan = async (result, err) => {
         if (result) {
             setScanResultWebCam(result);
             router.push(scanResultWebCam)
+        } else {
+            console.log(err)
         }
     }
 
@@ -35,4 +37,4 @@ const scan = () => {
     )
 }
 
-export default scan;
+export default Scan;

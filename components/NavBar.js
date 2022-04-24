@@ -1,7 +1,4 @@
 import Link from "next/link";
-import { useRouter } from "next/router";
-
-import React from 'react'
 
 const NavBar = () => {
     return (
@@ -17,8 +14,8 @@ const NavBar = () => {
                 </Link>
             </button>
             <button className="p-10">
-                <Link href="https://github.com/">
-                    Github
+                <Link href="https://github.com/darkMatterChimpanzee/gitQR">
+                    SourceCode
                 </Link>
             </button>
 

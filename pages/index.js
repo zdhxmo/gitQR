@@ -1,5 +1,5 @@
 import NavBar from "../components/NavBar";
-import React, { useState } from 'react';
+import { useState } from 'react';
 import QRCode from 'qrcode';
 import Image from 'next/image';
 
