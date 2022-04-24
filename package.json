@@ -10,11 +10,13 @@
   },
   "dependencies": {
     "next": "12.1.5",
+    "nextjs-redirect": "^6.0.0",
+    "qr-code-scanner": "^1.0.8",
     "qrcode": "^1.5.0",
     "qrcode-generator": "^1.4.4",
     "react": "18.0.0",
     "react-dom": "18.0.0",
-    "react-qr-reader": "^3.0.0-beta-1"
+    "react-qr-reader": "^2.2.1"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.5",

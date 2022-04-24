@@ -1,5 +1,5 @@
 import NavBar from "../components/NavBar";
-import React, { useState, useRef } from 'react';
+import React, { useState } from 'react';
 import QRCode from 'qrcode';
 
 export default function Home() {
