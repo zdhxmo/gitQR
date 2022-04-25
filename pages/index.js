@@ -28,7 +28,9 @@ export default function Home() {
       </div>
       <div className="flex justify-center items-center mt-20">
         {imageUrl ? (
-          <Image src={imageUrl} alt="profile URL"
+          <Image
+            src={imageUrl}
+            alt="profile URL"
             width={250}
             height={250}
           />

@@ -6,6 +6,7 @@ possible todos:
 1. Verify whether the username entered exists on Github
 2. Better UI. This is a skeleton, don't expect much.
 3. Create an extension out of it.
+4. Directly integrate into Github. That would be cool.
 
 
 =============================================================================================
